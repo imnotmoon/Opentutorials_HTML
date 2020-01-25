@@ -2,11 +2,20 @@
 <head>
   <title>WEB1-JavaScript</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1><a href "index.html"> WEB </a></h1>
+  <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    alert('dark mode on');
+  ">
+  <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';
+    alert('light mode on');
+  ">
   <ol>
     <li><a href="1.html"> HTML </a></li>
     <li><a href="2.html"> CSS </a></li>
